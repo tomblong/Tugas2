@@ -13,4 +13,12 @@
     <string name="jnsklmn">Jenis Kelamin</string>
     <string name="lk">Laki Laki</string>
     <string name="pr">Perempuan</string>
+    <string name="agm">Agama</string>
+    <string name="i">Islam</string>
+    <string name="kr">Kristen</string>
+    <string name="ka">Katholik</string>
+    <string name="hi">Hindu</string>
+    <string name="bd">Buddha</string>
+    <string name="kh">KongHucu</string>
+    <string name="kp">Aliran Kepercayaan</string>
 </resources>
