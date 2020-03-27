@@ -187,6 +187,35 @@
                     android:hint="@string/em">
 
                 </EditText>
+                <TextView
+                    android:id="@+id/lblPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pw1" />
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" >
+
+                    <requestFocus />
+                </EditText>
+                <TextView
+                    android:id="@+id/lblPassword2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pw2">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/txtPassword2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" >
+
+                    <requestFocus />
+                </EditText>
 
                 <TableRow>
                     <Button
