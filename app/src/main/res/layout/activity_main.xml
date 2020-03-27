@@ -21,6 +21,7 @@
                 android:textAlignment="center"
                 android:textSize="36sp"
                 android:textStyle="bold"/>
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -30,17 +31,18 @@
                     android:layout_height="78dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginBottom="10dp">
+
                     <EditText
                         android:layout_width="197dp"
                         android:layout_height="match_parent"
-                        android:hint="@string/namadpn">
-                    </EditText>
+                        android:hint="@string/namadpn"></EditText>
+
                     <EditText
                         android:layout_width="194dp"
                         android:layout_height="match_parent"
-                        android:hint="@string/namablkng">
-                    </EditText>
+                        android:hint="@string/namablkng"></EditText>
                 </TableRow>
+
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
@@ -48,83 +50,89 @@
 
 
                     <EditText
+                        android:id="@+id/editText1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:id="@+id/editText1"
-                        android:hint="@string/lahir">
-                    </EditText>
+                        android:hint="@string/lahir"></EditText>
 
                     <EditText
+                        android:id="@+id/editText2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:id="@+id/editText2"
-                        android:hint="@string/lahir">
-                    </EditText>
+                        android:hint="@string/lahir"></EditText>
 
                 </TableRow>
+
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="93dp"
-                    android:hint="@string/almt">
-                </EditText>
+                    android:hint="@string/almt"></EditText>
+
                 <RadioGroup>
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="10dp"
-                        android:text="@string/jnsklm"
-                        android:textSize="17sp">
-                    </TextView>
+                        android:text="@string/jnsklmn"
+                        android:textSize="17sp"></TextView>
+
                     <TableRow
 
                         android:layout_marginTop="15dp">
+
                         <RadioButton
-                            android:text="@string/lk"
-                            android:layout_marginHorizontal="15dp">
+                            android:layout_marginHorizontal="15dp"
+                            android:text="@string/lk">
 
                         </RadioButton>
+
                         <RadioButton
-                            android:text="@string/pr"
-                            android:layout_marginHorizontal="15dp">
+                            android:layout_marginHorizontal="15dp"
+                            android:text="@string/pr">
 
                         </RadioButton>
                     </TableRow>
 
                 </RadioGroup>
+
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp">
+
                     <RadioGroup
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        >
+                        android:layout_height="wrap_content">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/agm"
-                            >
+                            android:text="@string/agm">
 
                         </TextView>
+
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/i">
 
                         </RadioButton>
+
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/ka"
-                            >
+                            android:text="@string/ka">
 
                         </RadioButton>
+
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/bd">
 
                         </RadioButton>
+
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -133,21 +141,25 @@
                         </RadioButton>
 
                     </RadioGroup>
+
                     <RadioGroup
-                        android:layout_height="wrap_content"
-                        android:layout_width="wrap_content">
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/kr">
 
                         </RadioButton>
+
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/hi">
 
                         </RadioButton>
+
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -159,6 +171,7 @@
                     </RadioGroup>
 
                 </TableRow>
+
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -166,13 +179,33 @@
                     android:hint="@string/tlp">
 
                 </EditText>
+
                 <EditText
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:hint="@string/em">
 
                 </EditText>
+
+                <TableRow>
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/mybutton"
+                        android:text="Kembali" />
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/mybutton"
+                        android:text="Daftar" />
+                </TableRow>
 
             </TableLayout>
 

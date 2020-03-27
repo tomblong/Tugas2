@@ -25,4 +25,6 @@
     <string name="bd">Buddha</string>
     <string name="kh">KongHucu</string>
     <string name="kp">Aliran Kepercayaan</string>
+    <string name="bc">kembali</string>
+    <string name="df">Daftar</string>
 </resources>
